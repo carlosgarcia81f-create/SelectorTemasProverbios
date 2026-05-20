@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # 1. Configuración de página para móviles
-st.set_page_config(page_title="Proverbios Jóvenes", page_icon="📖")
+st.set_page_config(page_title="Proverbios Por Categoría", page_icon="📖")
 
 @st.cache_data
 def cargar_datos():
